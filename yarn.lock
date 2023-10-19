@@ -2010,7 +2010,7 @@
   dependencies:
     "@tamagui/animate-presence" "1.74.21"
 
-"@tamagui/animations-react-native@1.74.21":
+"@tamagui/animations-react-native@1.74.21", "@tamagui/animations-react-native@^1.74.21":
   version "1.74.21"
   resolved "https://registry.yarnpkg.com/@tamagui/animations-react-native/-/animations-react-native-1.74.21.tgz#20ff7d7b989b4157f56ed8f10c333d554d72c3f7"
   integrity sha512-uHCaqmft4q4BGb0xNJAisG8E8yvlIUn62bk4gMkw+IjbBOso6zX9WDCdfJUIx0ssr0DrHGdfkBnRHvYq6ymufw==
@@ -2182,6 +2182,13 @@
   dependencies:
     "@tamagui/compose-refs" "1.74.21"
     "@tamagui/web" "1.74.21"
+
+"@tamagui/font-inter@^1.74.21":
+  version "1.74.21"
+  resolved "https://registry.yarnpkg.com/@tamagui/font-inter/-/font-inter-1.74.21.tgz#6d15b495e3de697e9524926ec32351b908e63b4c"
+  integrity sha512-aSRYvXoxbLV6HRkv3YqCz3QUUxl/SvJKBPXCkaZZ/VGLshuEfoxGL4fCzOfwPnLJy7YWWrJFjYkZmI7OuAA8pQ==
+  dependencies:
+    "@tamagui/core" "1.74.21"
 
 "@tamagui/font-size@1.74.21":
   version "1.74.21"
@@ -2481,6 +2488,11 @@
     "@tamagui/use-controllable-state" "1.74.21"
     "@tamagui/use-keyboard-visible" "1.74.21"
 
+"@tamagui/shorthands@^1.74.21":
+  version "1.74.21"
+  resolved "https://registry.yarnpkg.com/@tamagui/shorthands/-/shorthands-1.74.21.tgz#1b5e2f1caa6bc574dd9df51bfa3d04a750b7a01b"
+  integrity sha512-HXBhByzVFaQoe1BBm3sgxcYwjlzOLLu5VpMQzLJcRkx1u6y9Lh4pnpeOfe59PydZmNsHjUuHECNpKYeEFZue4Q==
+
 "@tamagui/simple-hash@1.74.21":
   version "1.74.21"
   resolved "https://registry.yarnpkg.com/@tamagui/simple-hash/-/simple-hash-1.74.21.tgz#15b381e3094215aa525348ae208abe472efc14e5"
@@ -2713,6 +2725,25 @@
   integrity sha512-21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==
   dependencies:
     undici-types "~5.25.1"
+
+"@types/prop-types@*":
+  version "15.7.9"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.9.tgz#b6f785caa7ea1fe4414d9df42ee0ab67f23d8a6d"
+  integrity sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==
+
+"@types/react@~18.2.14":
+  version "18.2.30"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.30.tgz#b84f786864fc46f18545364a54d5e1316308e59b"
+  integrity sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.5"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.5.tgz#4751153abbf8d6199babb345a52e1eb4167d64af"
+  integrity sha512-s/FPdYRmZR8SjLWGMCuax7r3qCWQw9QKHzXVukAuuIJkXkDRwp+Pu5LMIVFi0Fxbav35WURicYr8u1QsoybnQw==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.2"
@@ -3570,6 +3601,11 @@ crypto-random-string@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
+
+csstype@^3.0.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
+  integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
 dag-map@~1.0.0:
   version "1.0.2"
@@ -7012,6 +7048,11 @@ type-is@~1.6.18:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.24"
+
+typescript@^5.1.3:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
+  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
 ua-parser-js@^1.0.35:
   version "1.0.36"
