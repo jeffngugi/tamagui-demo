@@ -14,7 +14,7 @@ import { themes } from './src/theme/themes';
 
 const tamaguiConfig = createTamagui({
     animations,
-    defaultTheme: "dark",
+    defaultTheme: 'light',
     shorthands,
     fonts: {
         heading: headingFont,

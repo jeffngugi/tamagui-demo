@@ -40,6 +40,7 @@ export const tokens = createTokens({
         sm: 4,
         md: 8,
         true: 8,
+        space: 10
       },
       size: {
         base: 0,
@@ -47,17 +48,20 @@ export const tokens = createTokens({
         sm: 4,
         md: 8,
         true: 8,
+        height:50
       },
       radius: {
         base: 0,
         xs: 2,
         sm: 4,
         md: 8,
+        radius: 10
       },
       zIndex: {
         base: 0,
         xs: 2,
         sm: 4,
         md: 8,
+        zi: 10
       },
 })
