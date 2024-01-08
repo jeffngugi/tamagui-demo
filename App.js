@@ -4,29 +4,22 @@ import { TamaguiProvider, XStack, Text, Theme, Input, Button } from 'tamagui'
 import tamaguiConfig from './tamagui.config'
 import Playground from './src/playground/Playground'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
-
+import Demo from './src'
+import { useAppThemeContext } from './src/contexts/hooks/useAppThemeContext'
+import { AppThemeProvider } from './src/contexts/AppThemeProviders'
+import MainApp from './src'
 
 const App = () => {
+  
+  // return <Demo />
   return (
-    // <SafeAreaView>
+
     <TamaguiProvider config={tamaguiConfig}>
-      <Theme name='dark'>
-        <SafeAreaProvider>
-          <SafeAreaView style={{flex:1}}>
-        <XStack f={1} backgroundColor='$background' >
-        <Playground />
-            {/* <Text>Jeff ngugi</Text>
-            <Input height='$height' borderRadius={5} borderWidth={1} />
-            <Button size={'$height'} onPress={()=>console.log("First tamagui button")}>Ngugii</Button>
-            <Input height='$height' borderRadius={5} borderWidth={1} /> */}
-        </XStack>
-        </SafeAreaView>
-        </SafeAreaProvider>
-        </Theme>
+      <AppThemeProvider>
+        <MainApp />
+        </AppThemeProvider>
     </TamaguiProvider>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({})
